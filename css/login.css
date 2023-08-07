@@ -1,0 +1,285 @@
+/* The navigation menu */
+.navbar {
+    overflow: hidden;
+    background-color: #188F25;
+  }
+  
+  /* Navigation links */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The subnavigation menu */
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Subnav button */
+  .subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  /* Add a red background color to navigation links on hover */
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: #0C1B2F;
+  }
+  
+  /* Style the subnav content - positioned absolute */
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: #2878CF;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  /* Style the subnav links */
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Add a grey background color on hover */
+  .subnav-content a:hover {
+    background-color: #255563;
+    color: black;
+  }
+  
+  /* When you move the mouse over the subnav container, open the subnav content */
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+
+  /* The navigation menu */
+
+  /* INICIO FOOTER */
+
+.footer-arrow {
+    
+  float:left ;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.footer-arrow svg {
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 30px;
+  background-color: #152543;
+}
+.footer-arrow .shape-fill {
+  fill: #1894CC;;
+}
+.main_footer          { background-color:#188F25; color:#1894CC; font-size:1em; }
+.main_footer .content { float:left; width:80%; margin:0 10%; padding: 5em 0; }
+.container { float:left; width:100%; }
+.colfooter { 
+
+width:100%; 
+height:auto; 
+float:left; 
+margin-bottom:2em;
+}
+.colfooter ul        { width:100%; float:left; }
+.colfooter ul li     { padding:0.2em 0em; }
+.colfooter ul li a   { text-decoration:none; color:#ffffff; font-size:1em; transition:0.2s; }
+.colfooter ul li a i { font-size:0.5em; }
+.colfooter ul li a:hover { color:#C8CCA9; }
+.colfooter .titleFooter   { 
+font-family: 'Lato', sans-serif; 
+font-size:1.3em; 
+color:#ffffff; 
+padding-bottom: 0.5em; 
+margin-bottom:0.5em; 
+border-bottom: 1px #152543 solid;
+}
+.colfooter p  { 
+font-family: 'Lato', sans-serif; 
+color:#ffffff; 
+font-size:1em; 
+height:25px; 
+}
+.colfooter .redesocial { 
+  
+  color: #ffffff;
+  float: left;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  transition:0.2s;
+}
+.colfooter .redesocial:hover { 
+  
+  color: #fffb00;
+  transition:0.2s;
+}
+.main_footer_copy   { background-color:#152543; width:100%; float:left; font-family: 'Lato', sans-serif; text-align:center; padding:1.5em 0em; }
+.main_footer_copy p { font-size:1em; color:#188F25; height:20px; }
+.main_footer_copy .m-b-footer   { margin-bottom:0.5em; }
+.main_footer_copy .by   { font-size:0.96em; }
+.main_footer_copy .by a       { color:#fff; text-decoration:none; font-weight:600; transition:0.2s; }
+.main_footer_copy .by a:hover { text-decoration:underline; color:#fffb00 }
+.main_footer_copy .by i { font-size:0.96em; margin-right:3px; color:#e82626; }
+/*Responsivo*/
+/*768PX BREAKPOINT*/
+@media (min-width:48em){
+
+.colfooter  { width:30%; margin-right:5%; margin-bottom:0; }
+.colfooter:nth-of-type(3n+0){ margin-right:0; border-right:0;}
+.footer-arrow svg { height:50px; }
+}
+/*960PX BREAKPOINT*/
+@media (min-width:60em){
+.footer-arrow svg { height:70px; }
+}
+/*1280PX BREAKPOINT*/
+@media (min-width:80em){
+.footer-arrow svg { height:90px; }
+}
+
+  /* Dim FOOTER */
+
+
+    /* iNICIO login */
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-bottom: 0.4em;
+        background-color: #171717;
+        border-radius: 20px;
+      }
+      
+      #heading {
+        text-align: center;
+        margin: 2em;
+        color: rgb(0, 255, 200);
+        font-size: 1.2em;
+      }
+      
+      .field {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5em;
+        border-radius: 25px;
+        padding: 0.6em;
+        border: none;
+        outline: none;
+        color: white;
+        background-color: #171717;
+        box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+      }
+      
+      .input-icon {
+        height: 1.3em;
+        width: 1.3em;
+        fill: rgb(0, 255, 200);
+      }
+      
+      .input-field {
+        background: none;
+        border: none;
+        outline: none;
+        width: 100%;
+        color: rgb(0, 255, 200);
+      }
+      
+      .form .btn {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-top: 2.5em;
+      }
+      
+      .button1 {
+        padding: 0.5em;
+        padding-left: 1.1em;
+        padding-right: 1.1em;
+        border-radius: 5px;
+        margin-right: 0.5em;
+        border: none;
+        outline: none;
+        transition: .4s ease-in-out;
+        background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+        color: rgb(0, 0, 0);
+      }
+      
+      .button1:hover {
+        background-image: linear-gradient(163deg, #00642f 0%, #13034b 100%);
+        color: rgb(0, 255, 200);
+      }
+      
+      .button2 {
+        padding: 0.5em;
+        padding-left: 2.3em;
+        padding-right: 2.3em;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        transition: .4s ease-in-out;
+        background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+        color: rgb(0, 0, 0);
+      }
+      
+      .button2:hover {
+        background-image: linear-gradient(163deg, #00642f 0%, #13034b 100%);
+        color: rgb(0, 255, 200);
+      }
+      
+      .button3 {
+        margin-bottom: 3em;
+        padding: 0.5em;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        transition: .4s ease-in-out;
+        background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+        color: rgb(0, 0, 0);
+      }
+      
+      .button3:hover {
+        background-image: linear-gradient(163deg, #a00000fa 0%, #d10050 100%);
+        color: rgb(255, 255, 255);
+      }
+      
+      .card {
+        background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+        border-radius: 22px;
+        transition: all .3s;
+      }
+      
+      .card2 {
+        border-radius: 0;
+        transition: all .2s;
+      }
+      
+      .card2:hover {
+        transform: scale(0.98);
+        border-radius: 20px;
+      }
+      
+      .card:hover {
+        box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+      }
+
+    /* fim login */

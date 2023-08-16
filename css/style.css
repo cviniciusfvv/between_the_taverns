@@ -1,0 +1,1384 @@
+
+@media screen and (max-width: 375px) {
+    
+    #container1 {
+     
+      margin: 0%;
+      padding: 0%;
+      height: 1px;
+        
+    }
+    header {
+        width: 265px;
+     }
+     .navText{
+        
+        display: flex;
+       
+        margin-top: -70px;
+        width: 205px;
+        margin-left: 50px;
+    
+        
+       
+    }
+    #itensNav {
+        display: flex; 
+      }
+   
+    #carrinhoNav {
+        visibility: visible;
+      
+    }
+      
+    #avatar {
+        visibility: visible;
+        width: 30px;
+      }
+    
+   
+      #divFiltro {
+      position: absolute;
+    visibility: hidden;
+  }
+  #fecharFiltro {
+    position: absolute;
+    visibility: hidden;
+      
+  }
+  #opções {
+    position: absolute;
+    visibility: hidden;
+  }
+  #ft {
+      font-weight: bold;
+      text-align: left;
+      border: none;
+      background: white;
+      margin-top: 10px;
+      font-size: 12pt;
+      width: 100px;
+  }
+   .item {
+      margin: 10px;
+      margin-left: -5px;
+  }
+  
+  
+   #itensNav {
+        display: flex; 
+    }
+    #avatar {
+        visibility: visible;
+        width: 30px;
+    }
+    #carrinhoNav {
+        visibility: visible;
+    }
+  #quantidadeCarNav {
+     visibility: hidden;
+   background: none;
+      border: none;
+      width: 22px;
+      height: 15px;
+      text-indent:5px;
+      background: hsl(26, 100%, 55%); ;
+      border-radius: 50px;
+      margin-left: 150px;
+      margin-top: 30px;
+      color: white;
+      
+      
+  }
+  
+  
+  #qtdCarNavValor {
+    position: absolute;
+      color: white;
+      background: none;
+      border: none;
+      width: 35px;
+      font-size: 9pt;
+      font-weight: bold;
+      margin-top: -3px; 
+        
+  }
+  
+  
+  #icoPrev {
+    
+      background: white;
+      width: 40px;
+      height: 40px;
+      border-radius: 50px;
+  }
+  #icoNext {
+     
+      background: white;
+      width: 40px;
+      height: 40px;
+      border-radius: 50px;
+      margin-left: -10px;
+  }
+  .icoPrev {
+     
+      margin-top: 12px;
+     margin-left: -5px;
+      width: 15px;
+      height: 15px;
+      border-radius: 50px;
+  }
+  .icoNext {
+      
+       margin-top: 12px;
+       
+      width: 15px;
+      height: 15px;
+      border-radius: 50px;
+  }
+  
+  #textos {
+      width: 345px;
+      margin-left: 0px;
+  }
+  .carousel {
+      width: 355px;
+  }
+  #tenis1c {
+      width: 345px;
+      height: 260px;
+     margin-left: 0px;
+      transform: rotate(-5%, 10%);
+  }
+  
+  
+  #tenis1 {
+      display: none;
+      width: 350px;
+      height: 260px;
+     margin-left: 0px;
+      transform: rotate(-5%, 10%);
+  }
+  #navbarCont {
+      
+    margin-top: -20px;
+  }
+  #navBot {
+      
+      margin-top: 30px;
+  }
+  #titulo1 {
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      margin-top:35px;
+      
+      width: 50px;
+  }
+  #titulo {
+      margin-top: 30px;
+      font-size: 12pt;
+      font-weight: bold;
+      
+      color: hsl(26, 100%, 55%); 
+  }
+  #p1 {
+      width: 305px;
+      font-size: 10pt;
+      font-weight: bold;
+      color: rgb(172, 169, 169);
+  }
+  #preçosT {
+      width: 305px;
+  }
+  #preço{
+      font-size: 18pt;
+      font-weight: bold;
+  }
+  #Desc {
+      margin-left: 10px;
+      height: 10px;
+      width: 30px;
+      background-color: hsl(25, 100%, 94%);
+      color: hsl(26, 100%, 55%);
+      font-weight: bold;
+  }
+  #preço2 {
+      color: rgb(194, 194, 194);
+      font-weight: bold;
+      margin-left: 90px;
+      
+  }
+  
+  #adicionarContainer {
+      display: flex;
+      flex-direction: column;
+      
+  }
+  #adicionar {
+     text-align: center;
+      margin-top: 50px;
+      background-color: hsl(223, 64%, 98%);
+      height: 50px;
+      border-radius: 10px;
+      width: 300px;
+      
+  }
+  #mais {
+      background: none;
+      border: none;
+      margin-left: 40px;
+      
+      width: 50px;
+      height: 50px;
+  
+  }
+  #menos {
+       width: 50px;
+      height: 50px;
+      background: none;
+      border: none;
+      margin-left: 0px;
+      
+  } 
+  #quantidade {
+      
+       background: none;
+      border: none;
+      width: 50px;
+     
+      margin-left: 75px;
+      font-weight: bold;
+      margin-top: 12px;
+  }
+  #botAdd {
+     background-color:  hsl(26, 100%, 55%);
+      margin-top: 10px;
+      width: 300px;
+      height: 50px;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-weight: bold;
+      
+  }
+  #carrinho2 {
+    position: absolute;
+      margin-left: -30px;    
+      border: white;
+  }
+  #linha {
+      height: 1px;
+      width: 280px;
+      margin-left: 25px;
+      background: gray;
+  }
+  /* CARRINHO */
+  #itensCarrinho {
+      visibility: hidden;
+      z-index: 2000;
+     position: absolute;
+      text-align: center;
+      margin-top: 15px;
+      margin-left: 7px;
+      height: 220px;
+      width: 320px;
+     background-color: hsl(223, 64%, 98%);
+      border-radius: 10px;
+      box-shadow: 0px 5px 5px 5px gray;
+  }
+  #tenisCarrinho {
+      border-radius: 5px;
+      width: 50px;
+      margin-top: -10px;
+      margin-left: -40px;
+  }
+  #produtoCarrinho {
+     visibility: hidden;
+  
+      width: 310px;
+      margin-left: px;
+      margin-top: -40px;
+      height: 170px;
+      
+      
+  }
+  #textoCart {
+  
+      color: black;
+     margin-left: -240px;
+     margin-top: 10px;
+     padding: 10px;
+     font-size: 15pt; 
+    
+  }
+  
+  /* CONTEÚDO DENTRO DO CARRINHO */
+  #textosCart {
+      display: flex;
+      color: black;
+    margin-left: 100px;
+     margin-top: -10px;
+     font-size: 12pt;
+     
+  }
+  #prodTextCar, #preçoCar {
+      
+     
+      font-size: 12pt;
+      color: rgb(110, 110, 110);
+      
+  }
+  
+  #resultado {
+      color: black;
+      margin-left: -15px;
+      font-weight: bold;
+      
+  }
+  #icoRemove {
+      position: absolute;
+      margin-left: 20px;
+      margin-top: 8px;
+      cursor: pointer;
+     
+  }
+  #checkout {
+     
+        background-color:  hsl(26, 100%, 55%);
+      margin-top: 10px;
+      width: 290px;
+      margin-left: 12px;
+      height: 50px;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-weight: bold;
+      
+  }
+  #quantidadeCar {
+      
+       background: none;
+      border: none;
+      width: 50px;
+      font-size: 12pt;
+      color: rgb(110, 110, 110);
+      margin-top: -1px;
+      margin-left: 5px;
+  }
+  #empty {
+     
+     position: absolute;
+     margin-left: -70px;
+     margin-top: -20px;
+      font-weight: bold;
+       color: rgb(141, 138, 138);
+     
+  }
+  @keyframes iniAni {
+      from {
+          opacity: 0;
+          transform: translate3d(0, -100px, 0);
+      }
+      to {
+          opacity: 1;
+          transform: translate3d(0, 0, 0);
+      }
+  }
+  
+  
+  .modalCont {
+      
+      width: 150vw;
+      height: 150vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 5000;
+      background: rgba(0, 0, 0, 0.5);
+     display: none;
+  }
+  .modalCont.mostrar {
+      display: flex;
+  }
+  
+  .mostrar {
+      animation: iniAni .5s;
+      
+  }
+  #opçõesMod {
+      display: flex;
+      flex-direction: column;
+  
+      
+      background: white;
+      width: 70vw;
+      height: 150vh;
+  }
+  #fecharFiltromod {
+      width: 50px;
+      margin-left: -10px;
+      border: none;
+      background: none;
+  }
+  .carouselMod {
+      display: none;
+  }
+  /* CONTEÚDO DENTRO DO CARRINHO */
+  /* CARRINHO */
+  
+  .tumbs {
+      display: none;
+  }
+  }
+  @media screen and (min-width: 376px) and (max-width: 576px) {
+      .carouselMod {
+      display: none;
+  }
+    #container1 {
+     
+      margin: 0%;
+      padding: 0%;
+      height: 1px;
+      margin-left: 5%;
+      
+        
+    }
+    header {
+        margin-left: 10%;
+       
+    }
+     .navText{
+        margin-left: 20px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: -70px;
+        width: 50%;   
+       
+    }
+    #itensNav {
+        display: flex; 
+        
+      }
+   
+    #carrinhoNav {
+        visibility: visible;
+      
+    }
+      
+    #avatar {
+        visibility: visible;
+        width: 30px;
+      }
+    
+   
+      #divFiltro {
+      position: absolute;
+    visibility: hidden;
+  }
+  #fecharFiltro {
+    position: absolute;
+    visibility: hidden;
+      
+  }
+  #opções {
+    position: absolute;
+    visibility: hidden;
+  }
+  #ft {
+      font-weight: bold;
+      text-align: left;
+      border: none;
+      background: white;
+      margin-top: 10px;
+      font-size: 12pt;
+      width: 100px;
+  }
+   .item {
+      margin: 10px;
+      margin-left: -5px;
+  }
+  
+  
+  
+  #quantidadeCarNav {
+     visibility: hidden;
+   background: none;
+      border: none;
+      width: 22px;
+      height: 15px;
+      text-indent:5px;
+      background: hsl(26, 100%, 55%); ;
+      border-radius: 50px;
+      margin-left: 150px;
+      margin-top: 30px;
+      color: white;
+      
+      
+  }
+  
+  
+  #qtdCarNavValor {
+    position: absolute;
+      color: white;
+      background: none;
+      border: none;
+      width: 35px;
+      font-size: 9pt;
+      font-weight: bold;
+      margin-top: -3px; 
+        
+  }
+  #tenis1c {
+      width: 95vw;
+      height: 45vw;
+     margin-left: 2vw;
+      transform: rotate(-5%, 10%);
+  }
+  
+  #icoPrev {
+    
+      background: white;
+      width: 40px;
+      height: 40px;
+      border-radius: 50px;
+  }
+  #icoNext {
+     
+      background: white;
+      width: 40px;
+      height: 40px;
+      border-radius: 50px;
+      margin-left: -40px;
+  }
+  .icoPrev {
+     
+      margin-top: 12px;
+      margin-left: -4px;
+      width: 15px;
+      height: 15px;
+      border-radius: 50px;
+  }
+  .icoNext {
+      
+       margin-top: 12px;
+       margin-left: 2px;
+      width: 15px;
+      height: 15px;
+      border-radius: 50px;
+  }
+  
+  #textos {
+      width: 345px;
+      
+  }
+  #tenis1 {
+      display: none;
+      width: 335px;
+      height: 260px;
+     margin-left: 0px;
+      transform: rotate(-5%, 10%);
+  }
+  #navbarCont {
+      width: 90vw;
+    margin-top: -20px;
+  }
+  #navBot {
+      
+      margin-top: 30px;
+  }
+  #titulo1 {
+     font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      margin-top:35px;
+      margin-left: 50%;
+      width: 50px;
+  }
+  #titulo {
+      margin-top: 30px;
+      font-size: 12pt;
+      font-weight: bold;
+      
+      color: hsl(26, 100%, 55%); 
+  }
+  #p1 {
+      width: 305px;
+      font-size: 10pt;
+      font-weight: bold;
+      color: rgb(172, 169, 169);
+  }
+  #preçosT {
+      width: 305px;
+  }
+  #preço{
+      font-size: 18pt;
+      font-weight: bold;
+  }
+  #Desc {
+      margin-left: 10px;
+      height: 10px;
+      width: 30px;
+      background-color: hsl(25, 100%, 94%);
+      color: hsl(26, 100%, 55%);
+      font-weight: bold;
+  }
+  #preço2 {
+      color: rgb(194, 194, 194);
+      font-weight: bold;
+      margin-left: 90px;
+      
+  }
+  
+  #adicionarContainer {
+      display: flex;
+      flex-direction: column;
+      margin-left: -10px;
+  }
+  #adicionar {
+     text-align: center;
+      margin-top: 50px;
+      background-color: hsl(223, 64%, 98%);
+      height: 50px;
+      border-radius: 10px;
+      width: 300px;
+      
+  }
+  #mais {
+      background: none;
+      border: none;
+      margin-left: 70px;
+      
+      width: 50px;
+      height: 50px;
+  
+  }
+  #menos {
+       width: 50px;
+      height: 50px;
+      background: none;
+      border: none;
+      margin-left: 0px;
+      
+  } 
+  #quantidade {
+      
+       background: none;
+      border: none;
+      width: 50px;
+     
+      margin-left: 70px;
+      font-weight: bold;
+      margin-top: 12px;
+  }
+  #botAdd {
+     background-color:  hsl(26, 100%, 55%);
+      margin-top: 10px;
+      width: 300px;
+      height: 50px;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-weight: bold;
+      
+  }
+  #carrinho2 {
+    position: absolute;
+      margin-left: -30px;    
+      border: white;
+  }
+  #linha {
+      height: 1px;
+      width: 280px;
+      margin-left: 25px;
+      background: gray;
+  }
+  /* CARRINHO */
+  #itensCarrinho {
+      visibility: hidden;
+      z-index: 2000;
+     position: absolute;
+      text-align: center;
+      margin-top: 15px;
+      margin-left: 7px;
+      height: 220px;
+      width: 320px;
+     background-color: hsl(223, 64%, 98%);
+      border-radius: 10px;
+      box-shadow: 0px 5px 5px 5px gray;
+  }
+  #tenisCarrinho {
+      border-radius: 5px;
+      width: 50px;
+      margin-top: -10px;
+      margin-left: -40px;
+  }
+  #produtoCarrinho {
+     visibility: hidden;
+  
+      width: 310px;
+      margin-left: px;
+      margin-top: -40px;
+      height: 170px;
+      
+      
+  }
+  #textoCart {
+  
+      color: black;
+     margin-left: -240px;
+     margin-top: 10px;
+     padding: 10px;
+     font-size: 15pt; 
+    
+  }
+  
+  /* CONTEÚDO DENTRO DO CARRINHO */
+  #textosCart {
+      display: flex;
+      color: black;
+    margin-left: 100px;
+     margin-top: -10px;
+     font-size: 12pt;
+     
+  }
+  #prodTextCar, #preçoCar {
+      
+     
+      font-size: 12pt;
+      color: rgb(110, 110, 110);
+      
+  }
+  
+  #resultado {
+      color: black;
+      margin-left: -15px;
+      font-weight: bold;
+      
+  }
+  #icoRemove {
+      position: absolute;
+      margin-left: 20px;
+      margin-top: 8px;
+      cursor: pointer;
+     
+  }
+  #checkout {
+     
+        background-color:  hsl(26, 100%, 55%);
+      margin-top: 10px;
+      width: 290px;
+      margin-left: 12px;
+      height: 50px;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-weight: bold;
+      
+  }
+  #quantidadeCar {
+      
+       background: none;
+      border: none;
+      width: 50px;
+      font-size: 12pt;
+      color: rgb(110, 110, 110);
+      margin-top: -1px;
+      margin-left: 5px;
+  }
+  #empty {
+     
+     
+     
+     position: absolute;
+     margin-left: -70px;
+     margin-top: -20px;
+      font-weight: bold;
+       color: rgb(141, 138, 138);
+     
+  }
+     
+  
+  @keyframes iniAni {
+      from {
+          opacity: 0;
+          transform: translate3d(0, -100px, 0);
+      }
+      to {
+          opacity: 1;
+          transform: translate3d(0, 0, 0);
+      }
+  }
+  
+  
+  .modalCont {
+      
+      width: 150vw;
+      height: 150vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 5000;
+      background: rgba(0, 0, 0, 0.5);
+     display: none;
+  }
+  
+  .modalCont.mostrar {
+      display: flex;
+  }
+  
+  .mostrar {
+      animation: iniAni .5s;
+      
+  }
+  #opçõesMod {
+      display: flex;
+      flex-direction: column;
+  
+      
+      background: white;
+      width: 70vw;
+      height: 150vh;
+  }
+  #fecharFiltromod {
+      width: 50px;
+      margin-left: -10px;
+      border: none;
+      background: none;
+  }
+  /* CONTEÚDO DENTRO DO CARRINHO */
+  /* CARRINHO */
+  
+  .tumbs {
+      display: none;
+  }
+  }
+  
+  @media screen and (min-width: 577px) {
+      .nexPrev {
+          visibility: hidden;
+      }
+      
+    #container1 {
+        
+     justify-content: center;
+     margin-top: 50px;
+   width: 900px;
+   height: 800px;
+   background: rgb(223, 221, 217);
+      
+        
+    }
+  header {
+      display: flex;
+      
+    height: 120px;
+    
+    border-bottom: solid 1px gray;
+    
+  }
+  .navText {
+      display: flex;
+      justify-content: space-between;
+      width: 800px;
+      
+  }
+    #navbarCont {
+        display: flex;
+        justify-content: center;
+      
+    }
+    .navInps {
+  
+        margin-top: 30px;
+        font-weight: bold;
+        color: rgb(151, 151, 151);
+  
+        margin-left: 1px;
+    }
+  
+   
+    #titulo1 {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 40pt;
+        
+        
+        margin-top: 15px;
+        
+      
+        
+        
+    }
+   
+   #divFiltro {
+  
+     font-weight: bold;
+     
+      
+  }
+  #fecharFiltro {
+      display: none;
+      
+  }
+  #ft {
+      background: none;
+      border: none;
+      
+  }
+  .item {
+      margin: 10px;
+  }
+  
+  
+   #itensNav {
+        display: flex; 
+        
+      
+    }
+    #avatar {
+        visibility: visible;
+        width: 30px;
+    }
+    #carrinhoNav {
+        visibility: visible;
+        
+    }
+  #quantidadeCarNav {
+     visibility: hidden;
+   background: none;
+      border: none;
+      width: 25px;
+      height: 15px;
+      text-indent:5px;
+      background: hsl(26, 100%, 55%); ;
+      border-radius: 50px;
+      margin-top: 20px;
+      margin-left: 200px;
+      color: white;
+      
+      
+  }
+  
+  
+  #qtdCarNavValor {
+    position: absolute;
+      color: white;
+      background: none;
+      border: none;
+      width: 55px;
+      font-size: 9pt;
+      font-weight: bold;
+      margin-top: -3px; 
+      text-align: justify;
+        
+  }
+  
+  
+  #navBot {
+      visibility: hidden;
+  }
+  
+  
+  #containerTextos {
+      display: flex;
+      justify-content: center;
+  }
+  #textos {
+      margin-left: -90px;
+      margin-top:100px; 
+  }
+  #carousel375p {
+      display: none ;
+  }
+  #tenis1 {
+      width: 345px;
+      height: 360px;
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 10px;
+      
+  }
+  .container-img {
+      
+      display: block;
+      
+      
+  } 
+  .tumbs {
+      width: 500px;
+      margin-left: 98px;
+      margin-top: 10px;
+  }
+  .itemI {
+      
+      border-radius: 20px;
+      width: 75px;
+      height: 75px;
+      margin:5px
+  }
+  
+  
+  #titulo {
+      margin-top: 30px;
+      font-size: 11pt;
+      font-weight: bold;
+      
+      color: hsl(26, 100%, 55%); 
+      
+  }
+  #fall {
+      width: 300px;
+  }
+  #p1 {
+      width: 325px;
+      font-size: 9pt;
+      font-weight: bold;
+      color: rgb(172, 169, 169);
+      
+  }
+  #preçosT {
+      width: 205px;
+      
+  }
+  #preço{
+      font-size: 18pt;
+      font-weight: bold;
+      
+  }
+  #Desc {
+      margin-left: 10px;
+      height: 10px;
+      width: 30px;
+      background-color: hsl(25, 100%, 94%);
+      color: hsl(26, 100%, 55%);
+      font-weight: bold;
+      
+  }
+  #preço2 {
+      color: rgb(194, 194, 194);
+      font-weight: bold;
+      margin-left: 10px;
+      
+      
+  }
+  #adicionarContainer {
+      display: flex;
+      margin-top: 50px;
+  }
+  
+  #adicionar {
+    
+     text-align: center;
+     
+      background-color: hsl(223, 64%, 98%);
+      height: 50px;
+      border-radius: 10px;
+      width: 150px;
+      
+  }
+  #mais {
+      background: none;
+      border: none;
+      margin-left: 40px;
+      
+      width: 50px;
+      height: 50px;
+      
+  
+  }
+  #menos {
+       width: 50px;
+      height: 50px;
+      background: none;
+      border: none;
+      margin-left: 0px;
+      
+      
+  } 
+  #quantidade {
+      
+       background: none;
+      border: none;
+      width: 50px;
+      position: absolute;
+      margin-left: 10px;
+      font-weight: bold;
+      margin-top: 12px;
+      
+  }
+  #botAdd {
+     background-color:  hsl(26, 100%, 55%);
+      
+      width: 200px;
+      height: 50px;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-weight: bold;
+      
+  }
+  #carrinho2 {
+     position: absolute;
+      margin-left: -30px;    
+      border: white;
+      
+  }
+  
+  
+  /* CARRINHO */
+  
+  #itensCarrinho {
+      
+      visibility: hidden;
+      position: absolute;
+      text-align: center;
+      margin-top: 10px;
+      margin-left: 600px;
+      height: 240px;
+      width: 350px;
+     background-color: hsl(223, 64%, 98%);
+      border-radius: 10px;
+      box-shadow: 0px 5px 5px 5px gray;
+      
+      
+  }
+  #tenisCarrinho {
+      width: 50px;
+      margin-top: 0px;
+      margin-left: -30px;
+      border-radius: 5px;
+  }
+  #produtoCarrinho {
+     visibility: hidden;
+  
+      width: 330px;
+      margin-left: 0px;
+      margin-top: -60px;
+      height: 170px;
+      
+     
+      
+  }
+  #textoCart {
+  
+      color: black;
+     margin-left: -200px;
+     margin-top: 20px;
+     font-size: 15pt; 
+  }
+  #linha {
+      height: 1px;
+      width: 300px;
+      margin-left: 25px;
+      background: gray;
+  }
+  
+  /* CONTEÚDO DENTRO DO CARRINHO */
+  #textosCart {
+      display: flex;
+      color: black;
+    margin-left: 100px;
+     margin-top: -20px;
+     font-size: 12pt;
+  }
+  #prodTextCar, #preçoCar {
+      
+     
+      font-size: 12pt;
+      color: rgb(110, 110, 110);
+      
+  }
+  
+  #resultado {
+      color: black;
+      margin-left: -5px;
+      font-weight: bold;
+  }
+  #icoRemove {
+      position: absolute;
+      margin-left: 40px;
+      margin-top: 25px;
+      cursor: pointer;
+  }
+  #checkout {
+     
+        background-color:  hsl(26, 100%, 55%);
+      margin-top: 20px;
+      width: 290px;
+      margin-left: 10px;
+      height: 50px;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-weight: bold;
+  }
+  #quantidadeCar {
+      
+       background: none;
+      border: none;
+      width: 40px;
+      font-size: 12pt;
+      color: rgb(110, 110, 110);
+      margin-top: -1px;
+      margin-left: 5px;
+  }
+  #empty {
+     
+     
+      font-weight: bold;
+       color: rgb(141, 138, 138);
+     margin-left: -20px;
+     
+  }
+  /* CONTEÚDO DENTRO DO CARRINHO */
+  /* CARRINHO */
+  .modalCont {
+      visibility: hidden;
+  }
+  
+  #carouselNormal {
+      display: none;
+  }
+  #spanTumb1 {
+      position: absolute;
+      margin-left: -80px;
+      margin-top: 5px;
+      width: 74.5px;
+     height: 74px;
+     border-radius: 20px;
+      
+  }
+  #spanTumb2 {
+      position: absolute;
+      margin-left: -80px;
+      margin-top: 5px;
+      width: 74.5px;
+     height: 74px;
+     border-radius: 20px;
+      
+  }
+  #spanTumb3 {
+      position: absolute;
+      margin-left: -80px;
+      margin-top: 5px;
+      width: 74.5px;
+     height: 74px;
+     border-radius: 20px;
+      
+  }
+  #spanTumb4 {
+      position: absolute;
+      margin-left: -80px;
+      margin-top: 5px;
+      width: 74.5px;
+     height: 74px;
+     border-radius: 20px;
+      
+  }
+  .botFechaModCar {
+      position: absolute;
+      z-index: 6000;
+      background: none;
+      color: white;
+      font-weight: bold;
+      border: none;
+      font-size: 25px;
+      margin-left: 400px;
+      margin-top: 10vw;
+      
+  }
+  #carouselExampleIndicators {
+      justify-content: center;
+      width: 600px;
+      margin-top: 40px;
+  }
+  .carouselMod {
+      display: flex;
+      justify-content: center;
+      top: 0;
+      left: 0;
+      width: 110vw;
+     height: 150vh;
+     background-color:  rgba(0, 0, 0, 0.5);
+      position: fixed;
+      
+   display: none;
+      
+  }
+  
+  .carouselMod.carouselAbrir {
+       display: flex;
+       
+      
+  }
+  
+  
+  #icoPrevm {
+      animation:  inicioA 0.5s;
+      margin-left: -40px;
+      margin-top: 10vw;
+      background: white;
+      width: 40px;
+      height: 40px;
+      border-radius: 50px;
+  }
+  
+  #icoNextm {
+      animation:  inicioA 0.5s;
+     margin-left: -160px;
+     margin-top: 10vw;
+      background: white;
+      width: 40px;
+      height: 40px;
+      border-radius: 50px;
+  }
+  
+  .icoPrevm {
+     
+      margin-top: 12px;
+      margin-left: -4px;
+      width: 15px;
+      height: 15px;
+      border-radius: 50px;
+  }
+  .icoNextm {
+      
+       margin-top: 12px;
+       margin-left: 3px;
+      width: 15px;
+      height: 15px;
+      border-radius: 50px;
+  }
+  
+  #contcar {
+      display: flex;
+      margin-left: 500px;
+     width: 1000px;
+      animation:  inicioA 0.5s;
+  
+  }
+  #tenis1c {
+      border-radius: 5px;
+      margin-top: 10vw;
+    margin-left: -500px;
+     width: 500px; 
+     height: 400px;
+  
+      
+      
+  }
+  
+   @keyframes inicioA {
+         from {
+             opacity: 0.5;
+             transform: translate3d(0, -200px, 0);
+         } 
+         to {
+             opacity: 1;
+             transform: translate3d(0, 0, 0);
+         }
+      }
+  #tenis1c {
+     animation:  inicioA 0.5s;
+  }
+  
+  
+      
+  
+  }

@@ -2,8 +2,7 @@
 
 Um projeto de uma pagina Web para curso de programação WEB - Senai Campinas
 
-Docente:
-
+Docente: Ana Claudia Neves Silva
 
 Aluno: Carlos Vinicius
 

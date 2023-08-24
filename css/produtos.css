@@ -358,100 +358,73 @@ height:25px;
 
   /* inicio*/
 
- /* Reset de estilos básicos para melhor consistência entre navegadores */
-body, h1, h2, p, ul, li, a {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-/* Estilos gerais */
+ /* Estilos gerais */
 body {
   font-family: Arial, sans-serif;
   background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
 }
 
-header, footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 1rem;
+/* Estilos para o contêiner do item */
+.item {
+  flex-basis: calc(33.33% - 20px);
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
 }
 
-main {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 2rem;
+.item:hover {
+  transform: translateY(-5px);
 }
 
-/* Estilos para os detalhes do item */
-.item-details {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.item-image {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.item-image img {
+.item img {
   max-width: 100%;
   height: auto;
-  margin: 0.5rem;
 }
 
-.item-info {
-  flex: 1;
-  padding: 1rem;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.item-info h2 {
-  margin-bottom: 1rem;
-}
-
-.item-info p {
-  margin-bottom: 1rem;
-}
-
-.item-info a {
-  display: inline-block;
-  background-color: #333;
-  color: #fff;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  border-radius: 4px;
-}
-
-/* Estilos para produtos relacionados */
-.other-products {
-  margin-top: 2rem;
-}
-
-.other-products h2 {
-  margin-bottom: 1rem;
-}
-
-.other-products ul {
-  list-style: none;
-}
-
-.other-products li {
-  margin-bottom: 0.5rem;
-}
-
-.other-products a {
+.item h1 {
+  font-size: 1.2rem;
+  margin-top: 10px;
   color: #333;
-  text-decoration: none;
 }
 
-.other-products a:hover {
+.item p {
+  color: #666;
+}
+
+
+/* Estilos para a lista de outros produtos */
+.outros-produtos {
+  flex-basis: 100%;
+  margin-top: 20px;
+}
+
+.outros-produtos h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.outros-produtos ul {
+  list-style: none;
+  padding: 0;
+}
+
+.outros-produtos li {
+  margin-bottom: 5px;
+}
+
+.outros-produtos a {
+  text-decoration: none;
+  color: #666;
+  font-weight: bold;
+}
+
+.outros-produtos a:hover {
   text-decoration: underline;
+  color: #ff6600;
 }

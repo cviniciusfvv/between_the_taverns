@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fórmula de Bhaskara</title>
+</head>
+<body>
+    <center><h1>Calculadora de Bhaskara</h1>
+
+    <button onclick="calcularBhaskara()">Calcular Bhaskara</button>
+
+    <div id="resultado">
+        <!-- Aqui será exibido o resultado -->
+    </div></center>
+
+    <script>
+        function calcularBhaskara() {
+            var a = parseFloat(prompt("Digite o valor de A:"));
+            var b = parseFloat(prompt("Digite o valor de B:"));
+            var c = parseFloat(prompt("Digite o valor de C:"));
+
+            var discriminante = b * b - 4 * a * c;
+            var x1, x2;
+            var resultadoTexto = "";
+
+            if (discriminante > 0) {
+                x1 = (-b + Math.sqrt(discriminante)) / (2 * a);
+                x2 = (-b - Math.sqrt(discriminante)) / (2 * a);
+
+                resultadoTexto += "Passo 1: Calculando o Delta Δ<br>";
+                resultadoTexto += "Delta Δ = " + b + "² - 4 * " + a + " * " + c + " = " + discriminante + "<br><br>";
+                resultadoTexto += "Passo 2: Calculando as raízes<br>";
+                resultadoTexto += "x1 = (-" + b + " + √" + discriminante + ") / (2 * " + a + ") = " + x1 + "<br>";
+                resultadoTexto += "x2 = (-" + b + " - √" + discriminante + ") / (2 * " + a + ") = " + x2 + "<br>";
+            } else if (discriminante === 0) {
+                x1 = -b / (2 * a);
+
+                resultadoTexto += "Passo 1: Calculando o Delta Δ<br>";
+                resultadoTexto += "Delta Δ = " + b + "² - 4 * " + a + " * " + c + " = " + discriminante + "<br><br>";
+                resultadoTexto += "Passo 2: Calculando a raiz única<br>";
+                resultadoTexto += "x = -" + b + " / (2 * " + a + ") = " + x1 + "<br>";
+            } else {
+                resultadoTexto += "Não existem raízes reais.";
+            }
+
+            document.getElementById("resultado").innerHTML = resultadoTexto;
+        }
+    </script>
+</body>
+</html>

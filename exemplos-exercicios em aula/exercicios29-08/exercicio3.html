@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conversor de Temperatura</title>
+</head>
+<body>
+    <h1>Conversor de Temperatura</h1>
+
+    <label for="celsius">Digite a temperatura em Celsius:</label>
+    <input type="number" id="celsius" placeholder="Digite a temperatura" />
+    <button onclick="converterTemperatura()">Converter</button>
+
+    <script>
+        function converterTemperatura() {
+            // Obtenha o valor em Celsius a partir do campo de entrada
+            var celsius = parseFloat(document.getElementById("celsius").value);
+
+            // Realize as conversões
+            var fahrenheit = (celsius * 9/5) + 32;
+            var kelvin = celsius + 273.15;
+
+            // Crie a mensagem pop-up com os resultados
+            var mensagem = "Celsius: " + celsius + "\n";
+            mensagem += "Fahrenheit: " + fahrenheit + "\n";
+            mensagem += "Kelvin: " + kelvin;
+
+            // Exiba a mensagem pop-up
+            alert(mensagem);
+        }
+    </script>
+</body>
+</html>

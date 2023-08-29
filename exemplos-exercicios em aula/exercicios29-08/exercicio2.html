@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Conversor de Medidas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    button {
+      padding: 10px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <center><h1>Conversor de Medidas</h1>
+  <p>Insira a quantidade em metros que deseja converter:</p>
+  <input type="number" id="metrosInput">
+  <button onclick="converterMedidas()">Converter</button></center>
+
+  <script>
+    function converterMedidas() {
+      const metros = parseFloat(document.getElementById('metrosInput').value);
+      if (!isNaN(metros)) {
+        const polegadas = metros * 39.3701;
+        const pés = metros * 3.28084;
+        const centímetros = metros * 100;
+        const milímetros = metros * 1000;
+        const quilômetros = metros / 1000;
+        
+        const mensagem = `${metros} metros são equivalentes a:\n\n${polegadas} polegadas\n${pés} pés\n${centímetros} centímetros\n${milímetros} milímetros\n${quilômetros} quilômetros`;
+
+        alert(mensagem);
+      } else {
+        alert('Por favor, insira um valor válido em metros.');
+      }
+    }
+  </script>
+</body>
+</html>

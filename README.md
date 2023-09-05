@@ -6,5 +6,6 @@ Docente: Ana Claudia Neves Silva
 
 Aluno: Carlos Vinicius
 
-Pagina web: between the tavernas
+Projeto web: between the tavernas
+
 tema: pagina de tcg, eletrônicos e itens de coleção.

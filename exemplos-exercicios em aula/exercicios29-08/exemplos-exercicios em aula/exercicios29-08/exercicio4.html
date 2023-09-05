@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conversor de Reais para Dólares</title>
+</head>
+<body>
+    <center><h1>Conversor de Reais para Dólares</h1>
+    <p>Insira o valor em Reais e clique em "Converter" para ver o valor em Dólares.</p>
+    
+    <!-- Campo de entrada para o valor em Reais -->
+    <input type="text" id="reais" placeholder="Insira o valor em Reais">
+    
+    <!-- Botão para acionar a conversão -->
+    <button onclick="converter()">Converter</button></center>
+    <center>
+        <button><a href="exercicio3.html">Anterior</a></button>
+        <button><a href="inicio.html">Inicio</a></button>
+        <button><a href="exercicio5.html">proximo</a></button>
+    </center>
+</body>
+<script type="text/javascript">
+    function converter() {
+        // Obtenha o valor em Reais do campo de entrada
+        var valorEmReais = parseFloat(document.getElementById("reais").value);
+
+        // Verifique se o valor é um número válido
+        if (isNaN(valorEmReais)) {
+            alert("Por favor, insira um valor numérico válido em Reais.");
+            return;
+        }
+
+        // Defina a taxa de câmbio (substitua pela taxa atual)
+        var taxaDeCambio = 5.50;
+
+        // Realize a conversão
+        var valorEmDolares = valorEmReais / taxaDeCambio;
+
+        // Exiba a mensagem em pop-up
+        alert(valorEmReais + " Reais é igual a " + valorEmDolares.toFixed(2) + " Dólares.");
+    }
+</script>
+</html>

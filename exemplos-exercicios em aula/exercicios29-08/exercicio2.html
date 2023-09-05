@@ -28,12 +28,12 @@
       const metros = parseFloat(document.getElementById('metrosInput').value);
       if (!isNaN(metros)) {
         const polegadas = metros * 39.3701;
-        const pés = metros * 3.28084;
-        const centímetros = metros * 100;
-        const milímetros = metros * 1000;
-        const quilômetros = metros / 1000;
+        const pes = metros * 3.28084;
+        const centimetros = metros * 100;
+        const milimetros = metros * 1000;
+        const quilometros = metros / 1000;
         
-        const mensagem = `${metros} metros são equivalentes a:\n\n${polegadas} polegadas\n${pés} pés\n${centímetros} centímetros\n${milímetros} milímetros\n${quilômetros} quilômetros`;
+        const mensagem = `${metros} metros são equivalentes a:\n\n${polegadas} polegadas\n${pes} pes\n${centimetros} centímetros\n${milimetros} milimetros\n${quilometros} quilometros`;
 
         alert(mensagem);
       } else {

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <center><title>Calculadora de Desconto</title>
+    <style>
+        /* Estilos para a janela pop-up */
+        #popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+    </style></center>
+        <center>
+            <button><a href="exercicio4.html">Anterior</a></button>
+            <button><a href="inicio.html">Inicio</a></button>
+            <button><a href="exercicio6.html">proximo</a></button>
+        </center>
+</head>
+<body>
+    <h1>Calculadora de Desconto</h1>
+
+    <!-- Botão para abrir a janela pop-up -->
+    <button onclick="mostrarPopup()">Calcular Desconto (10%)</button>
+
+    <!-- Janela pop-up -->
+    <div id="popup">
+        <h2>Informe o nome do produto e o preço:</h2>
+        <label for="nomeProduto">Nome do Produto:</label>
+        <input type="text" id="nomeProduto"><br>
+        <label for="precoProduto">Preço do Produto:</label>
+        <input type="number" id="precoProduto"><br>
+        <button onclick="calcularDesconto()">Calcular</button>
+        <p>Nome do Produto: <span id="produtoNome"></span></p>
+        <p>Preço Antes do Desconto: <span id="precoAntesDesconto"></span></p>
+        <p>Preço com Desconto: <span id="precoComDesconto"></span></p>
+        <button onclick="fecharPopup()">Fechar</button>
+    </div>
+
+    <script>
+        // Função para exibir a janela pop-up
+        function mostrarPopup() {
+            document.getElementById("popup").style.display = "block";
+        }
+
+        // Função para calcular o desconto
+        function calcularDesconto() {
+            const nomeProduto = document.getElementById("nomeProduto").value;
+            const precoProduto = parseFloat(document.getElementById("precoProduto").value);
+            const desconto = precoProduto * 0.10; // 10% de desconto
+            const precoComDesconto = precoProduto - desconto;
+            document.getElementById("produtoNome").textContent = nomeProduto;
+            document.getElementById("precoAntesDesconto").textContent = precoProduto.toFixed(2);
+            document.getElementById("precoComDesconto").textContent = precoComDesconto.toFixed(2);
+        }
+
+        // Função para fechar a janela pop-up
+        function fecharPopup() {
+            document.getElementById("popup").style.display = "none";
+        }
+    </script>
+</body>
+</html>

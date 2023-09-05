@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Função media aluno</h1>
+    <button onclick="media()"> Calcular media</button>
+    <section id="situacao">
+        <P> O resultado aparece aqui!</P>
+    </section>
+    <script>
+        function media(){
+            let nome=window.prompt('Qual o seu nome?')
+            let n1=Number (window.prompt('Qual a sua 1° note? ${nome}?'))
+            let n2=Number (window.prompt('Qual a sua 2° note? ${nome}?'))
+            med=(n1+n2)/2
+
+            let res = document.getElementById ('situacao')
+            res.innerHTML = '<p> Calculando a media final de ${nome}. </p>'
+            res.innerHTML = '<p> As notas obtidas foram ${n1} e ${n2} </p>'
+            res.innerHTML = '<p> A media final de ${nome} sera ${med}  </p>'
+        }
+    </script>
+</body>
+</html>

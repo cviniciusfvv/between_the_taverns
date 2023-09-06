@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contando de 1 até 10 mostrando se é Ímpar ou Par</title>
+  <head>
+    <style>
+      #numeros {
+        list-style-type: none;
+      }
+      li {
+        font-size: 24px;
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fade-in 0.5s ease forwards;
+      }
+      .par {
+        color: green;
+      }
+      .impar {
+        color: red;
+      }
+      @keyframes fade-in {
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Contando de 1 até 10 com Animação</h1>
+
+    <ul id="numeros"></ul>
+
+    <script src="exercicio8.js"></script>
+  </body>
+</html>

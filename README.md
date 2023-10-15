@@ -8,4 +8,4 @@ Aluno: Carlos Vinicius
 
 Projeto web: between the tavernas
 
-tema: pagina de tcg, eletrônicos e itens de coleção.
+tema: pagina de tcg e itens de coleção.

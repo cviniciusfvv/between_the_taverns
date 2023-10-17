@@ -9,3 +9,7 @@ Aluno: Carlos Vinicius
 Projeto web: between the tavernas
 
 tema: pagina de tcg e itens de coleção.
+
+Quem fez o que:
+
+Carlos Vinicius: Pesquisa, criação, desenvolvimento, programação e a ideia.
